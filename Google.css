@@ -284,7 +284,18 @@ footer .btm-ftr .right ul li a:hover {
 
 /* Responsive */
 
-@media (max-width: 340px){
+@media (max-width: 340px)
+{
+  footer .btm-ftr .left ul li{
+    padding: 5px;
+  }
+  footer .btm-ftr .left ul li a{
+    padding: 5px;
+  }
+  footer{
+    font-size: 12px;
+    position: static;
+  }
   footer .top-ftr{
     font-size: 12px;
   }
@@ -305,14 +316,17 @@ footer .btm-ftr .right ul li a:hover {
     /* padding: 10px; */
   }
   footer .btm-ftr .left ul li{
-    /* padding: 5px; */
+    padding: 5px;
+  }
+  footer .btm-ftr .left ul li a{
+    padding: 0px;
   }
   footer .btm-ftr .right ul{
     display: block;
     /* padding: 10px; */
   }
   footer .btm-ftr .right ul li{
-    /* padding: 5px; */
+    padding: 5px;
   }
   .logo .searchbox .icons {
     width: 92%;
